@@ -1,0 +1,45 @@
+  .help {
+    margin-top: 1em;
+    clear: both;
+    width: 100%;
+    background-color: #CCCACA;
+    padding: 1em;
+    h3 {
+      margin: .5em 0;
+      font-family: SourceSansPro-Bold;
+      color: #515151;
+    }
+  }
+  .flex-around {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .flex-center {
+    display: flex;
+    justify-content: center;
+  }
+  .wrap {
+    flex-wrap: wrap;
+  }
+  .help-buttons {
+    margin: 0 1em;
+    min-width: 210px;
+  }
+
+  footer .row {
+    background-color: #FFF;
+  }
+
+  .footbtn {
+    background-color: #9B9B9B;
+    color: white;
+    font-family: SourceSansPro-Light;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1em 0;
+    height: 2em;
+    padding: 2em 0;
+  }
