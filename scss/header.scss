@@ -1,3 +1,10 @@
+@import "vars";
+
+body {
+  background-color: #EEEEEE;
+  color: $fonthue;
+}
+
 .navbar-default.nav-top {
   background-color: #4A4A4A;
   ul {
@@ -41,6 +48,42 @@
     padding: 7px 15px 5px 15px;
     &:hover {
       color: black;
+    }
+  }
+}
+
+.top {
+  position: relative;
+  margin-bottom: 1.5em;
+  h4, h1 {
+    color: #4A4A4A;
+  }
+  h1 {
+    font-family: SourceSansPro-Light;
+    margin-top: 0;
+  }
+  h4 {
+    font-family: SourceSansPro-Semibold;
+    text-transform: uppercase;
+    margin-bottom: 0;
+  }
+  .search {
+    position: absolute;
+    right: 0;
+    top: -6px;
+    span {
+      font-size: 25px;
+    }
+    input {
+      /* Search myUTx: */
+      line-height: 0;
+      padding: 0;
+      width: 200px;
+      background-color: inherit;
+      border: 0;
+      font-family: SourceSansPro-Light;
+      font-size: 30px;
+      letter-spacing: 0.71px;
     }
   }
 }

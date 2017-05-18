@@ -1,0 +1,23 @@
+@import 'block';
+
+.person {
+  img {
+    float: left;
+    margin-right: 20px;
+  }
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+    li {
+      span.key {
+        font-weight: bold;
+      }
+    }
+    &.profile {
+      clear: both;
+      li {
+        margin-top: 20px;
+      }
+    }
+  }
+}

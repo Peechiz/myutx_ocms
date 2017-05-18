@@ -1,13 +1,14 @@
+@import "vars";
+
   .help {
     margin-top: 1em;
     clear: both;
     width: 100%;
-    background-color: #CCCACA;
+    background-color: $help;
     padding: 1em;
     h3 {
       margin: .5em 0;
       font-family: SourceSansPro-Bold;
-      color: #515151;
     }
   }
   .flex-around {
@@ -27,12 +28,12 @@
     min-width: 210px;
   }
 
-  footer .row {
-    background-color: #FFF;
+  footer {
+    background-color: $btn-background;
   }
 
   .footbtn {
-    background-color: #9B9B9B;
+    background-color: $footbtn;
     color: white;
     font-family: SourceSansPro-Light;
     font-size: 20px;

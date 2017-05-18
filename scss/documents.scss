@@ -1,0 +1,32 @@
+@import "vars";
+@import "block";
+@import "caret";
+
+.sidenav {
+  padding-left: 0;
+  list-style-type: none;
+  li {
+    border-bottom: 1px solid #eee;
+    .caret {
+      margin-top: 7.5px;
+    }
+    // margin-bottom: .5em;
+    span.dropdwn {
+      display: block;
+      position: relative;
+      padding: 10px 15px;
+      &:hover {
+        background-color: #eee;
+      }
+    }
+  }
+  ul {
+    li {
+      border: 0;
+      padding: 4px;
+      margin: 0;
+    }
+    list-style-type: none;
+    padding-left: 2.5em;
+  }
+}

@@ -1,0 +1,23 @@
+@import "vars";
+
+.block {
+  font-family: SourceSansPro-Light;
+  padding: 20px;
+  background-color: $panel;
+  margin-bottom: 30px;
+  h3 {
+    font-weight: normal;
+    margin: 0 0 .75em 0;
+  }
+  h4 {
+    margin-top: 0;
+    display: inline-block;
+    // font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 4px;
+    border-bottom: 2px solid #E1E0E2;
+    letter-spacing: 0.8px;
+    font-size: 14px;
+    font-family: SourceSansPro-Bold;
+  }
+}

@@ -1,0 +1,13 @@
+@import "vars";
+@import "block";
+
+.block {
+  &.calendar {
+
+  }
+  &.mtg-notes {
+    table td {
+      border: 0;
+    }
+  }
+}

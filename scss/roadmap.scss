@@ -1,0 +1,41 @@
+@import "vars";
+@import "block";
+
+.mini {
+  h3 {
+    margin: 0;
+  }
+  p {
+    text-align: center;
+    font-size: 64px;
+    width: 100%;
+    margin: 0;
+  }
+}
+
+.milestones {
+  tr:nth-child(1) {
+    td {
+      border-top: 0;
+    }
+  }
+  .status {
+    position: relative;
+    top: 4px;
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+    &.in-progress {
+      background-color: #F8E81C;
+    }
+
+    &.completed {
+      background-color: #7ED321;
+    }
+
+    &.pending {
+      background-color: red;
+    }
+  }
+
+}
