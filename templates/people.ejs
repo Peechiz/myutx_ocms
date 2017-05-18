@@ -1,0 +1,72 @@
+<%- partial('./partials/_header') %>
+
+<link rel="stylesheet" href="css/people.css">
+
+<div class="container">
+  <%- partial('./partials/_title_search') %>
+  <%- partial('./partials/_project_nav') %>
+
+  <script type="text/javascript">
+    let people = document.querySelector('#people');
+    people.classList.add('active');
+  </script>
+
+  <div class="row">
+
+    <!-- left sidebar -->
+    <div class="col-md-4">
+      <div class="block">
+        people nav
+      </div>
+    </div>
+
+    <!-- main profile -->
+    <div class="col-md-8">
+      <div class="block person">
+        <img src="http://fillmurray.com/125/125" alt="">
+        <h3>Yoris Au, Ph.D.</h3>
+        <ul>
+          <li>
+            <span class="key">Title:</span> Chair, Information Systems and Cyber Security
+          </li>
+          <li>
+            <span class="key">Account:</span> The University of Texas at San Antonio
+          </li>
+          <li>
+            <span class="key">Department:</span> College of Business
+          </li>
+          <li>
+            <span class="key">Email:</span> yoris.au@utsa.edu
+          </li>
+          <li>
+            <span class="key">Phone:</span> 210-458-6337
+          </li>
+        </ul>
+
+        <ul class="profile">
+          <li>
+            <span class="key">UTx Primary Contact:</span> Natalie Murray/Duane Hume
+          </li>
+          <li>
+            <span class="key">Role on Project:</span> Primary UTSA oversight for BBA program. Instrumental in helping to create the advisory board and industry outreach strategy as well as be a leader in the military pilot.
+          </li>
+          <li>
+            <span class="key">What is important to the stakeholder?</span> High quality, on-time delivery, satisfied faculty
+          </li>
+          <li>
+            <span class="key">How could the stakeholder contibute to or block the project?</span> Key decision-maker
+          </li>
+          <li>
+            <span class="key">Strategy for Engagement:</span> Already engaged. Ensure frequent communication.
+          </li>
+          <li>
+            <span class="key">Notes:</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </div> <!-- end row -->
+</div> <!-- end container -->
+
+<%- partial('./partials/_footer') %>

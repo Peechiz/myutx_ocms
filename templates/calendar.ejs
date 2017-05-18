@@ -1,0 +1,59 @@
+<%- partial('./partials/_header') %>
+
+<link rel="stylesheet" href="css/calendar.css">
+
+<div class="container">
+
+  <%- partial('./partials/_title_search') %>
+  <%- partial('./partials/_project_nav') %>
+
+  <script type="text/javascript">
+    let calendar = document.querySelector('#calendar');
+    calendar.classList.add('active');
+  </script>
+
+  <div class="block calendar">
+    calendar placeholder
+  </div>
+
+  <div class="block mtg-notes">
+    <h4>Meeting Notes</h4>
+    <table class="table">
+      <tbody>
+        <tr>
+          <td>LINK</td>
+          <td>Day and Date</td>
+          <td>Meeting Title</td>
+          <td>Overview Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
+        </tr>
+        <tr>
+          <td>LINK</td>
+          <td>Day and Date</td>
+          <td>Meeting Title</td>
+          <td>Overview Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
+        </tr>
+        <tr>
+          <td>LINK</td>
+          <td>Day and Date</td>
+          <td>Meeting Title</td>
+          <td>Overview Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
+        </tr>
+        <tr>
+          <td>LINK</td>
+          <td>Day and Date</td>
+          <td>Meeting Title</td>
+          <td>Overview Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
+        </tr>
+        <tr>
+          <td>LINK</td>
+          <td>Day and Date</td>
+          <td>Meeting Title</td>
+          <td>Overview Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+</div>
+
+<%- partial('./partials/_footer') %>

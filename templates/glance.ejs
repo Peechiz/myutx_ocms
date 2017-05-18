@@ -1,0 +1,89 @@
+<%- partial('./partials/_header') %>
+
+<link rel="stylesheet" href="css/glance.css">
+
+
+<div class="container">
+  <%- partial('./partials/_title_search') %>
+  <%- partial('./partials/_project_nav') %>
+
+  <script type="text/javascript">
+    let glance = document.querySelector('#glance');
+    glance.classList.add('active');
+  </script>
+
+  <div class="row">
+    <!-- left column -->
+    <div class="col-md-8 main">
+      <div class="block glance">
+        <h4>At A Glance</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+
+      <div class="block milestones">
+        <h3>Milestones This Week</h3>
+        <img src="img/milestones.png" alt="">
+        <p class="report">View Report</p>
+      </div>
+      <div class="block">
+        chatter placeholder
+      </div>
+    </div>
+
+    <!-- right column -->
+    <div class="col-md-4">
+      <div class="block quick-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li>Platform Login</li>
+          <li>Google Drive</li>
+          <li>Meeting Notes</li>
+        </ul>
+
+      </div>
+
+      <div class="block">
+        <h4>My Tasks Due Today</h4>
+        <ul>
+          <li>Task</li>
+          <li>Task</li>
+          <li>Task</li>
+          <li>Task</li>
+        </ul>
+      </div>
+
+      <div class="block">
+        <h4>Team</h4>
+        <div class="team">
+          <img src="http://fillmurray.com/40/40" alt="">
+          <img src="http://fillmurray.com/40/40" alt="">
+          <img src="http://fillmurray.com/40/40" alt="">
+          <img src="http://fillmurray.com/40/40" alt="">
+          <img src="http://fillmurray.com/40/40" alt="">
+          <img src="http://fillmurray.com/40/40" alt="">
+          <img src="http://fillmurray.com/40/40" alt="">
+          <img src="http://fillmurray.com/40/40" alt="">
+          <img src="http://fillmurray.com/40/40" alt="">
+        </div>
+      </div>
+
+      <div class="block records">
+        <h4>Recent Records</h4>
+        <ul>
+          <li>Record</li>
+          <li>Record</li>
+          <li>Record</li>
+          <li>Record</li>
+          <li>Record</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+
+
+</div> <!-- end container -->
+
+
+
+<%- partial('./partials/_footer') %>
